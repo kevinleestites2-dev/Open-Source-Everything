@@ -35,7 +35,19 @@
       "connector": "agent_zero/integrations/crawl4ai_connector.py",
       "absorbed_at": "2026-06-02T22:51:40.758151+00:00",
       "status": "INTEGRATED"
+    },
+    {
+      "name": "clawdi",
+      "slug": "Clawdi-AI/clawdi",
+      "url": "https://github.com/Clawdi-AI/clawdi",
+      "category": "AI_MODEL",
+      "score": 3,
+      "language": "TypeScript",
+      "stars": 84,
+      "connector": "agent_zero/integrations/clawdi_connector.py",
+      "absorbed_at": "2026-06-02T22:58:05.353194+00:00",
+      "status": "INTEGRATED"
     }
   ],
-  "last_updated": "2026-06-02T22:51:41.729160+00:00"
+  "last_updated": "2026-06-02T22:58:06.483265+00:00"
 }
