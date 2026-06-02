@@ -1,0 +1,17 @@
+{
+  "integrations": [
+    {
+      "name": "liquidity-module-self-integration",
+      "slug": "gluexprotocol/liquidity-module-self-integration",
+      "url": "https://github.com/gluexprotocol/liquidity-module-self-integration",
+      "category": "CRYPTO",
+      "score": 5,
+      "language": "Python",
+      "stars": 1,
+      "connector": "agent_zero/integrations/liquidity_module_self_integration_connector.py",
+      "absorbed_at": "2026-06-02T21:33:46.732069+00:00",
+      "status": "INTEGRATED"
+    }
+  ],
+  "last_updated": "2026-06-02T21:33:47.740406+00:00"
+}
