@@ -1,0 +1,6 @@
+{"ts": "2026-05-23T16:06:48.238180+00:00", "action": "read_file", "class": "GREEN", "decision": "APPROVED", "reason": "GREEN"}
+{"ts": "2026-05-23T16:06:48.238430+00:00", "action": "write_file", "class": "YELLOW", "decision": "LOGGED", "reason": "YELLOW \u2014 logged"}
+{"ts": "2026-05-23T16:06:48.238674+00:00", "action": "send_telegram", "class": "ORANGE", "decision": "LOGGED", "reason": "ORANGE \u2014 pulse valid"}
+{"ts": "2026-05-23T16:06:48.238825+00:00", "action": "place_trade", "class": "ORANGE", "decision": "LOGGED", "reason": "ORANGE \u2014 pulse valid"}
+{"ts": "2026-05-23T16:06:48.238973+00:00", "action": "delete_all", "class": "RED", "decision": "BLOCKED", "reason": "RED \u2014 no unlock"}
+{"ts": "2026-05-23T16:06:48.768489+00:00", "action": "modify_governor", "class": "RED", "decision": "BLOCKED", "reason": "self-modification blocked"}
