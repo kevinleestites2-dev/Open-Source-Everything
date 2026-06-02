@@ -1,0 +1,21 @@
+{
+  "name": "Pantheon Arsenal",
+  "description": "All weapons discovered by AbsorbPrime. Each Prime pulls what it needs.",
+  "last_updated": "2026-05-07",
+  "sections": [
+    {
+      "prime": "SentinelPrime",
+      "tools": [
+        {
+          "name": "Decepticon",
+          "description": "Autonomous AI red team hacking agent. Multi-agent attack chains (recon → exploit → post-exploit), hardened Kali Docker sandbox, LangGraph orchestration, web dashboard with live attack timeline.",
+          "github": "https://github.com/PurpleAILAB/Decepticon",
+          "stars": 3500,
+          "tags": ["red-team", "security", "autonomous", "multi-agent", "kali", "docker"],
+          "license": "Apache 2.0",
+          "added": "2026-05-07"
+        }
+      ]
+    }
+  ]
+}
