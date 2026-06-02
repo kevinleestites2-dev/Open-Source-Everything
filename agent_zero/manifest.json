@@ -47,7 +47,19 @@
       "connector": "agent_zero/integrations/clawdi_connector.py",
       "absorbed_at": "2026-06-02T22:58:05.353194+00:00",
       "status": "INTEGRATED"
+    },
+    {
+      "name": "openclaude-android",
+      "slug": "friuns2/openclaude-android",
+      "url": "https://github.com/friuns2/openclaude-android",
+      "category": "AI_MODEL",
+      "score": 4,
+      "language": "TypeScript",
+      "stars": 23,
+      "connector": "agent_zero/integrations/openclaude_android_connector.py",
+      "absorbed_at": "2026-06-02T23:00:56.394039+00:00",
+      "status": "INTEGRATED"
     }
   ],
-  "last_updated": "2026-06-02T22:58:06.483265+00:00"
+  "last_updated": "2026-06-02T23:00:57.509163+00:00"
 }
