@@ -1,0 +1,50 @@
+{
+  "cycles": [
+    {
+      "cycle": 1,
+      "timestamp": "2026-05-23T15:55:40.997317+00:00",
+      "input": "Test input cycle 1",
+      "coherence": 0.96,
+      "emerged": false,
+      "duration_s": 0.0,
+      "safla_regime": "EXPLORE",
+      "safla_entropy": 0.0,
+      "identity_ok": true,
+      "evolution_rate": 1.0,
+      "tools_count": 1,
+      "best_mode": "analyst"
+    },
+    {
+      "cycle": 2,
+      "timestamp": "2026-05-23T15:55:40.997681+00:00",
+      "input": "Test input cycle 2",
+      "coherence": 0.96,
+      "emerged": false,
+      "duration_s": 0.0,
+      "safla_regime": "EXPLORE",
+      "safla_entropy": 0.0,
+      "identity_ok": true,
+      "evolution_rate": 1.0,
+      "tools_count": 1,
+      "best_mode": "analyst"
+    },
+    {
+      "cycle": 3,
+      "timestamp": "2026-05-23T15:55:40.998061+00:00",
+      "input": "Test input cycle 3",
+      "coherence": 0.96,
+      "emerged": false,
+      "duration_s": 0.0,
+      "safla_regime": "EXPLORE",
+      "safla_entropy": 0.0,
+      "identity_ok": true,
+      "evolution_rate": 1.0,
+      "tools_count": 1,
+      "best_mode": "analyst"
+    }
+  ],
+  "total": 3,
+  "emergence_count": 0,
+  "last_coherence": 0.96,
+  "last_cycle": "2026-05-23T15:55:40.998067+00:00"
+}
