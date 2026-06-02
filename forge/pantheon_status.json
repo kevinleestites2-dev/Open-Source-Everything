@@ -1,0 +1,29 @@
+{
+  "system": {
+    "status": "Online",
+    "uptime": "99.9"
+  },
+  "bots": [
+    {"name": "MetaPrime", "role": "Architect", "icon": "layout", "status": "Active"},
+    {"name": "OpenPRIME", "role": "Orchestrator", "icon": "layers", "status": "Active"},
+    {"name": "MidasPrime", "role": "Treasury", "icon": "heart", "status": "Active"},
+    {"name": "KratosPrime", "role": "Enforcer", "icon": "shield", "status": "Active"},
+    {"name": "ZapiaPrime", "role": "Conduit", "icon": "mic", "status": "Active"},
+    {"name": "SolosPrime", "role": "Soul", "icon": "activity", "status": "Active"},
+    {"name": "Deep-meta", "role": "Mind", "icon": "brain", "status": "Active"},
+    {"name": "EchoPrime", "role": "Vibe", "icon": "waves", "status": "Active"},
+    {"name": "ZeusPrime", "role": "OS Kernel", "icon": "cpu", "status": "Active"},
+    {"name": "AlphaPrime", "role": "General", "icon": "target", "status": "Active"},
+    {"name": "ZetaPrime", "role": "Developer", "icon": "code", "status": "Active"},
+    {"name": "SentinelPrime", "role": "Guardian", "icon": "eye", "status": "Active"},
+    {"name": "ScoutPrime", "role": "Explorer", "icon": "compass", "status": "Active"},
+    {"name": "VanguardPrime", "role": "Liaison", "icon": "message-square", "status": "Active"},
+    {"name": "ChronosPrime", "role": "Archiver", "icon": "clock", "status": "Active"},
+    {"name": "PrimeDash", "role": "Throne", "icon": "monitor", "status": "Active"},
+    {"name": "OrionPrime", "role": "Acquisition", "icon": "shopping-cart", "status": "Active"},
+    {"name": "OmegaPrime", "role": "Singularity", "icon": "zap", "status": "Active"},
+    {"name": "Prometheus", "role": "Catalyst", "icon": "flame", "status": "Active"},
+    {"name": "NovaPrime", "role": "Valkyrie", "icon": "refresh-cw", "status": "Active"},
+    {"name": "NexusPrime", "role": "Bridge", "icon": "smartphone", "status": "Active"}
+  ]
+}
