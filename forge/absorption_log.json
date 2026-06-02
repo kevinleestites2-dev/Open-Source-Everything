@@ -1,0 +1,145 @@
+{
+  "generated": "2026-06-02T20:50:53.516288",
+  "source": "kevinleestites2-dev/Open-Source-Everything",
+  "total": 496,
+  "absorb_count": 4,
+  "evaluate_count": 42,
+  "skip_count": 450,
+  "absorb_queue": [
+    {
+      "name": "XMRig",
+      "url": "https://xmrig.com/",
+      "category": "Unknown",
+      "score": 7,
+      "status": "ABSORB"
+    },
+    {
+      "name": "Ollama",
+      "url": "https://ollama.com/",
+      "category": "Unknown",
+      "score": 5,
+      "status": "ABSORB"
+    },
+    {
+      "name": "MediaInfo",
+      "url": "https://mediaarea.net/en/MediaInfo",
+      "category": "Unknown",
+      "score": 4,
+      "status": "ABSORB"
+    },
+    {
+      "name": "Instant Domain Search",
+      "url": "https://instantdomainsearch.com/",
+      "category": "Unknown",
+      "score": 4,
+      "status": "ABSORB"
+    }
+  ],
+  "evaluate_queue": [
+    {
+      "name": "Duck.ai",
+      "url": "https://duck.ai/",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "Stable Audio Open",
+      "url": "https://huggingface.co/stabilityai/stable-audio-open-1.0",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "Whisper",
+      "url": "https://openai.com/blog/whisper/",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "MusicBrainz",
+      "url": "https://musicbrainz.org/",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "Syncthing-Fork",
+      "url": "https://github.com/researchxxl/syncthing-android",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "AdEx",
+      "url": "https://www.adex.network/",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "Cryptwerk",
+      "url": "https://cryptwerk.com/pay-with/xmr/",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "XmrBazaar",
+      "url": "https://xmrbazaar.com/",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "Privacy.com",
+      "url": "https://privacy.com/",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "Adwaita",
+      "url": "https://gnome.pages.gitlab.gnome.org/libadwaita/",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "Monero GUI",
+      "url": "https://github.com/monero-project/monero-gui",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "Monero.com",
+      "url": "https://monero.com/",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "Monero",
+      "url": "https://getmonero.org/home",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "Bisq",
+      "url": "https://bisq.network/",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    },
+    {
+      "name": "Dicer",
+      "url": "https://secuso.aifb.kit.edu/english/Dicer.php",
+      "category": "Unknown",
+      "score": 2,
+      "status": "EVALUATE"
+    }
+  ]
+}
