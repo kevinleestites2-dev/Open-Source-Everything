@@ -1,0 +1,38 @@
+[
+  {
+    "generations_run": 20,
+    "duration_s": 0.734,
+    "ancestor_id": "dec9d20d1463",
+    "best_id": "c4409df036aa",
+    "best_fitness": 0.1981,
+    "ancestor_fitness": 0.0,
+    "fitness_gain": 0.1981,
+    "best_instruction_count": 2,
+    "best_path": "genome/000008_c4409df036aa.py",
+    "timestamp": "2026-05-23T16:16:19.911735+00:00"
+  },
+  {
+    "generations_run": 15,
+    "duration_s": 0.513,
+    "ancestor_id": "dec9d20d1463",
+    "best_id": "b8129e7bbd1d",
+    "best_fitness": 0.3,
+    "ancestor_fitness": 0.0,
+    "fitness_gain": 0.3,
+    "best_instruction_count": 2,
+    "best_path": "genome/000005_b8129e7bbd1d.py",
+    "timestamp": "2026-05-23T16:16:20.424726+00:00"
+  },
+  {
+    "generations_run": 15,
+    "duration_s": 0.527,
+    "ancestor_id": "dec9d20d1463",
+    "best_id": "dec9d20d1463",
+    "best_fitness": 0.0,
+    "ancestor_fitness": 0.0,
+    "fitness_gain": 0.0,
+    "best_instruction_count": 1,
+    "best_path": "genome/000000_dec9d20d1463.py",
+    "timestamp": "2026-05-23T16:16:20.952420+00:00"
+  }
+]
