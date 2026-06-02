@@ -1,14 +1,14 @@
 {
-  "generated": "2026-06-02 23:25 UTC",
+  "generated": "2026-06-02 23:33 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 7,
+  "total_integrations": 8,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
       "slug": "GlueX-Protocol/liquidity-module",
       "category": "CRYPTO",
       "score": 2,
-      "score_note": "Honest. Protocol-specific DeFi SDK. Not Pantheon infra.",
+      "score_note": "Honest. Protocol-specific DeFi SDK.",
       "connector": "agent_zero/integrations/liquidity_module_self_integration_connector.py",
       "absorbed": "2026-06-02"
     },
@@ -36,27 +36,26 @@
       "slug": "clawdi/clawdi",
       "category": "MEMORY_BACKBONE",
       "score": 9,
-      "score_note": "SCORE OVERRIDE. iCloud for Agents \u2014 persistent cross-agent memory + session sync.",
+      "score_note": "SCORE OVERRIDE. iCloud for Agents \u2014 persistent cross-agent memory.",
       "connector": "agent_zero/integrations/clawdi_connector.py",
       "absorbed": "2026-06-02"
     },
     {
-      "name": "OpenClaude Mobile (friuns2)",
+      "name": "OpenClaude Mobile",
       "slug": "friuns2/openclaude-android",
       "category": "RED_MAGIC_BRAIN",
       "score": 10,
-      "score_note": "SCORE OVERRIDE (4->10). Full Claude Code agent on Android. Smart router. Ollama local. Red Magic activation.",
+      "score_note": "SCORE OVERRIDE. Full Claude Code agent on Android. Smart router.",
       "connector": "agent_zero/integrations/openclaude_android_connector.py",
       "absorbed": "2026-06-02"
     },
     {
-      "name": "AnyClaw / OpenClaw Platform",
+      "name": "AnyClaw Platform",
       "slug": "OpenClawAndroid/openclaw-android-assistant",
       "category": "MOBILE_COMMAND_CENTER",
       "score": 10,
-      "score_note": "SCORE OVERRIDE (3->10). Full OpenClaw platform \u2014 3 agents, 55+ skills, iOS/Android/macOS/Docker. Clawhub ecosystem.",
+      "score_note": "SCORE OVERRIDE. Full OpenClaw platform, 55+ skills, Clawhub ecosystem.",
       "connector": "agent_zero/integrations/openclaw_android_assistant_connector.py",
-      "priority_skills_mapped": 20,
       "clawhub": "https://clawhub.ai",
       "absorbed": "2026-06-02"
     },
@@ -65,21 +64,51 @@
       "slug": "debuggerdragon311/zig-pro-maxx",
       "category": "LANGUAGE_SKILL",
       "score": 2,
-      "score_note": "Honest. Zig 0.16.0 enforcement skill. Not Pantheon infra. Value: skill format reference + Clawhub ecosystem discovery.",
+      "score_note": "Honest. Zig 0.16.0 skill. Value: Clawhub ecosystem discovery.",
       "connector": "agent_zero/integrations/zig_pro_maxx_connector.py",
-      "references": 14,
       "clawhub": "https://clawhub.ai/debuggerdragon311/zig-pro-maxx",
+      "absorbed": "2026-06-02"
+    },
+    {
+      "name": "NetClaw",
+      "slug": "automateyournetwork/netclaw",
+      "category": "NETWORK_INTELLIGENCE",
+      "role": "NETWORK_SPINE_PRIME",
+      "score": 10,
+      "score_note": "SCORE OVERRIDE 9->10. CCIE-level AI network engineer. 169 skills. 15 MCP servers. OSPFv3 live participation.",
+      "connector": "agent_zero/integrations/netclaw_connector.py",
+      "base_platform": "OpenClaw",
+      "skills": 169,
+      "mcp_servers": 15,
+      "specs": 70,
+      "priority_mcp": [
+        "syslog-mcp",
+        "snmptrap-mcp",
+        "suzieq-mcp",
+        "protocol-mcp",
+        "gnmi-mcp"
+      ],
+      "key_features": [
+        "169 network skills \u2014 pyATS, Meraki, F5, Juniper, ACI, NSO, SD-WAN, AWS, Azure",
+        "OSPFv3 LIVE control plane participation \u2014 agent joins routing as peer",
+        "SNMP trap + syslog real-time receivers \u2014 event stream into OpenAgora",
+        "SuzieQ \u2014 network state as queryable database",
+        "GAIT immutable audit trail on every operation",
+        "DefenseClaw security scanning layer",
+        "One-command install \u2014 install.sh 146KB"
+      ],
       "absorbed": "2026-06-02"
     }
   ],
-  "score_overrides": 3,
-  "total_bytes": 103520,
-  "layer_20_engine": "agent_zero/agent_zero_integrator.py",
+  "score_overrides": 4,
   "key_discoveries": [
     "Clawhub.ai \u2014 OpenClaw skill marketplace (publish + discover Agent Zero skills)",
     "AnyClaw AGENTS.md mirrors Pantheon workspace protocol \u2014 convergent evolution",
     "OpenClaude smart_router.py \u2014 free provider cascade: Ollama > OpenRouter > Groq > Gemini",
     "Red Magic stack complete: DexClaw + EleftheriaPrime + NexusClaw + OpenClaude + AnyClaw",
-    "Zig 0.16.0 reference library absorbed for future Rust/C FFI boundary work"
+    "NetClaw = Network Spine Prime \u2014 fills Pantheon network intelligence blind spot",
+    "OSPFv3 live participation \u2014 agent joins the control plane as a routing peer",
+    "SNMP trap + syslog MCP = real-time network event stream for OpenAgora",
+    "Zig 0.16.0 reference absorbed for future Rust/C FFI boundary work"
   ]
 }
