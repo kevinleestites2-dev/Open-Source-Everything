@@ -1,0 +1,13 @@
+{
+  "regime": "EXPLORE",
+  "entropy": 0.0,
+  "cycles": 5,
+  "best_mode": "analyst",
+  "scores": [
+    1.0,
+    1.0,
+    0.6,
+    1.0,
+    1.0
+  ]
+}
