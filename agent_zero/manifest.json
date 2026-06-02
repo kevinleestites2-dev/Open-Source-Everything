@@ -59,7 +59,19 @@
       "connector": "agent_zero/integrations/openclaude_android_connector.py",
       "absorbed_at": "2026-06-02T23:00:56.394039+00:00",
       "status": "INTEGRATED"
+    },
+    {
+      "name": "openclaw-android-assistant",
+      "slug": "OpenClawAndroid/openclaw-android-assistant",
+      "url": "https://github.com/OpenClawAndroid/openclaw-android-assistant",
+      "category": "AI_MODEL",
+      "score": 3,
+      "language": "TypeScript",
+      "stars": 395,
+      "connector": "agent_zero/integrations/openclaw_android_assistant_connector.py",
+      "absorbed_at": "2026-06-02T23:11:50.051719+00:00",
+      "status": "INTEGRATED"
     }
   ],
-  "last_updated": "2026-06-02T23:00:57.509163+00:00"
+  "last_updated": "2026-06-02T23:11:51.202665+00:00"
 }
