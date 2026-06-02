@@ -1,0 +1,12 @@
+{
+  "active": true,
+  "paused": false,
+  "unlocked_actions": [],
+  "unlock_expiry": {},
+  "last_pulse": 1779552408.237976,
+  "pulse_count": 1,
+  "actions_approved": 1,
+  "actions_blocked": 2,
+  "actions_logged": 3,
+  "initialized": "2026-05-23T16:06:48.237966+00:00"
+}
