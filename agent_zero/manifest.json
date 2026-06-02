@@ -23,7 +23,19 @@
       "connector": "agent_zero/integrations/thclaws_connector.py",
       "absorbed_at": "2026-06-02T22:36:20.400010+00:00",
       "status": "INTEGRATED"
+    },
+    {
+      "name": "crawl4ai",
+      "slug": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "category": "AI_MODEL",
+      "score": 7,
+      "language": "Python",
+      "stars": 67628,
+      "connector": "agent_zero/integrations/crawl4ai_connector.py",
+      "absorbed_at": "2026-06-02T22:51:40.758151+00:00",
+      "status": "INTEGRATED"
     }
   ],
-  "last_updated": "2026-06-02T22:36:21.361404+00:00"
+  "last_updated": "2026-06-02T22:51:41.729160+00:00"
 }
