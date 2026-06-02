@@ -1,0 +1,141 @@
+{
+    "primes": {
+        "1": {
+            "name": "MetaPrime"
+        },
+        "3": {
+            "name": "MidasPrime"
+        },
+        "4": {
+            "name": "KratosPrime"
+        },
+        "5": {
+            "name": "ZapiaPrime"
+        },
+        "6": {
+            "name": "SolosPrime"
+        },
+        "8": {
+            "name": "EchoPrime"
+        },
+        "9": {
+            "name": "ZeusPrime"
+        },
+        "10": {
+            "name": "AlphaPrime"
+        },
+        "11": {
+            "name": "ZetaPrime"
+        },
+        "12": {
+            "name": "SentinelPrime"
+        },
+        "13": {
+            "name": "ScoutPrime"
+        },
+        "14": {
+            "name": "VanguardPrime"
+        },
+        "15": {
+            "name": "ChronosPrime"
+        },
+        "17": {
+            "name": "OrionPrime"
+        },
+        "18": {
+            "name": "OmegaPrime"
+        },
+        "20": {
+            "name": "NovaPrime"
+        },
+        "21": {
+            "name": "NexusPrime"
+        },
+        "22": {
+            "name": "HeraPrime"
+        },
+        "24": {
+            "name": "AetherPrime"
+        },
+        "25": {
+            "name": "AbsorbPrime"
+        },
+        "26": {
+            "name": "QuantumPrime"
+        },
+        "28": {
+            "name": "YouTubePrime"
+        }
+    },
+    "financials": {
+        "targets": {
+            "Nexus": "3000",
+            "Citadel": "5000",
+            "Steam Machine": "600"
+        },
+        "revenue_streams": {},
+        "costs": {}
+    },
+    "infrastructure": {
+        "repos": {
+            "QuantumPrime": "https://github.com/kevinleestites2-dev/QuantumPrime",
+            "youtube-automation-agent": "https://github.com/darkzOGx/youtube-automation-agent",
+            "AutoGPT": "https://github.com/kevinleestites2-dev/AutoGPT",
+            "deep-signal": "https://github.com/kevinleestites2-dev/deep-signal",
+            "ai-assisted-task-executor": "https://github.com/kevinleestites2-dev/ai-assisted-task-executor",
+            "second-brain": "https://github.com/kevinleestites2-dev/second-brain",
+            "MidasPrime-The-Treasury": "https://github.com/kevinleestites2-dev/MidasPrime-The-Treasury",
+            "EleftheriaPrime": "https://github.com/kevinleestites2-dev/EleftheriaPrime",
+            "terax-ai": "https://github.com/kevinleestites2-dev/terax-ai",
+            "android-remote-control-mcp": "https://github.com/danielealbano/android-remote-control-mcp",
+            "suna": "https://github.com/kortix-ai/suna",
+            "OpenTrade": "https://github.com/kevinleestites2-dev/OpenTrade",
+            "Open-trade-": "https://github.com/kevinleestites2-dev/Open-trade-",
+            "octogent": "https://github.com/hesamsheikh/octogent",
+            "Android-MCP": "https://github.com/kevinleestites2-dev/Android-MCP",
+            "voidshift": "https://github.com/kevinleestites2-dev/voidshift",
+            "Emilla": "https://github.com/devycarol/Emilla",
+            "NexusClaw": "https://github.com/kevinleestites2-dev/NexusClaw",
+            "mobile-mcp": "https://github.com/mobile-next/mobile-mcp",
+            "uiautomator2-mcp-server": "https://github.com/tanbro/uiautomator2-mcp-server",
+            "termux-mcp": "https://github.com/akashagg30/termux-mcp",
+            "traefik": "https://github.com/traefik/traefik",
+            "NewBlackbox": "https://github.com/ALEX5402/NewBlackbox",
+            "DexClaw": "https://github.com/kevinleestites2-dev/DexClaw",
+            "AgentBlue": "https://github.com/RGLie/AgentBlue",
+            "superserve": "https://github.com/superserve-ai/superserve",
+            "AnubisAnkh": "https://github.com/kevinleestites2-dev/AnubisAnkh",
+            "SobekAnkh": "https://github.com/kevinleestites2-dev/SobekAnkh",
+            "openhuman": "https://github.com/kevinleestites2-dev/openhuman",
+            "PtahAnkh": "https://github.com/kevinleestites2-dev/PtahAnkh",
+            "FilosAnkh": "https://github.com/kevinleestites2-dev/FilosAnkh",
+            "Filos": "https://github.com/kevinleestites2-dev/Filos",
+            "SoloMiner": "https://github.com/Pymmdrza/SoloMiner",
+            "SoloMinerV2": "https://github.com/Pymmdrza/SoloMinerV2",
+            "jadx-mcp-server": "https://github.com/kevinleestites2-dev/jadx-mcp-server",
+            "hackingtool": "https://github.com/kevinleestites2-dev/hackingtool",
+            "Star-Office-UI": "https://github.com/ringhyacinth/Star-Office-UI",
+            "streambert": "https://github.com/truelockmc/streambert",
+            "superpowers": "https://github.com/kevinleestites2-dev/superpowers",
+            "ClawWork": "https://github.com/kevinleestites2-dev/ClawWork",
+            "OpenCut": "https://github.com/OpenCut-app/OpenCut",
+            "EverOS": "https://github.com/kevinleestites2-dev/EverOS",
+            "OpenStock": "https://github.com/kevinleestites2-dev/OpenStock",
+            "OpenAgora": "https://github.com/kevinleestites2-dev/OpenAgora",
+            "ScoutPrime": "https://github.com/kevinleestites2-dev/ScoutPrime",
+            "dockerify-android": "https://github.com/kevinleestites2-dev/dockerify-android"
+        },
+        "keys": {}
+    },
+    "last_sync": "2026-05-22T02:34:40.927653",
+    "signals": [
+        {
+            "time": "2026-05-22T02:34:47.248820",
+            "from": "Aeon",
+            "data": {
+                "type": "REAL_ESTATE_HIT",
+                "loc": "Fort Myers"
+            }
+        }
+    ]
+}
