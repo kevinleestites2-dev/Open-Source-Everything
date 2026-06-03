@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-03 17:35 UTC",
+  "generated": "2026-06-03 17:47 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 19,
+  "total_integrations": 20,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -138,9 +138,20 @@
       "stars": 432,
       "forks": 23,
       "absorbed": "2026-06-03"
+    },
+    {
+      "name": "SearXNG",
+      "slug": "searxng/searxng",
+      "category": "METASEARCH_ENGINE",
+      "role": "DATA_EXTRACTION_BACKBONE",
+      "score": 10,
+      "score_note": "The decentralized search core. Aggregates 70+ search engines. Privacy-first, no tracking. This is the raw data feed for the Pantheon Vane engine.",
+      "stars": 31326,
+      "forks": 2962,
+      "absorbed": "2026-06-03"
     }
   ],
-  "total_10s": 11,
+  "total_10s": 12,
   "total_9s": 2,
   "total_8s": 1,
   "key_discoveries": [
