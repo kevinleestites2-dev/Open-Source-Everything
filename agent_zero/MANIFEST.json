@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-03 17:47 UTC",
+  "generated": "2026-06-03 17:56 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 20,
+  "total_integrations": 21,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -149,9 +149,20 @@
       "stars": 31326,
       "forks": 2962,
       "absorbed": "2026-06-03"
+    },
+    {
+      "name": "Python Algorithms",
+      "slug": "TheAlgorithms/Python",
+      "category": "COMPUTATIONAL_CORE",
+      "role": "REASONING_FOUNDATION",
+      "score": 10,
+      "score_note": "The definitive collection of mathematical and computer science algorithms. This is the source code for the Pantheon reasoning engine. 221k+ stars worth of pure logic.",
+      "stars": 221620,
+      "forks": 44781,
+      "absorbed": "2026-06-03"
     }
   ],
-  "total_10s": 12,
+  "total_10s": 13,
   "total_9s": 2,
   "total_8s": 1,
   "key_discoveries": [
