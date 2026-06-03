@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-03 14:06 UTC",
+  "generated": "2026-06-03 17:26 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 16,
+  "total_integrations": 17,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -105,9 +105,20 @@
         "IMAP"
       ],
       "absorbed": "2026-06-03"
+    },
+    {
+      "name": "The Book of Secret Knowledge",
+      "slug": "trimstray/the-book-of-secret-knowledge",
+      "category": "PANTHEON_GRIMOIRE",
+      "role": "REFERENCE_ARCHIVE",
+      "score": 10,
+      "score_note": "The definitive collection of lists, manuals, cheatsheets, and hacks. 226K stars. This is the tactical encyclopedia of the Pantheon.",
+      "stars": 226383,
+      "forks": 13588,
+      "absorbed": "2026-06-03"
     }
   ],
-  "total_10s": 8,
+  "total_10s": 9,
   "total_9s": 2,
   "total_8s": 1,
   "key_discoveries": [
