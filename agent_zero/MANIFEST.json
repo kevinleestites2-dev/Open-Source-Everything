@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-03 01:14 UTC",
+  "generated": "2026-06-03 01:43 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 12,
+  "total_integrations": 13,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -51,7 +51,6 @@
       "category": "NETWORK_SPINE_PRIME",
       "score": 10,
       "connector": "agent_zero/integrations/netclaw_connector.py",
-      "skills": 169,
       "mcp_servers": 15
     },
     {
@@ -66,9 +65,7 @@
       "category": "AGENT_PLATFORM",
       "score": 10,
       "connector": "agent_zero/integrations/openharness_connector.py",
-      "stars": 13437,
-      "tools": 43,
-      "channels": 10
+      "stars": 13437
     },
     {
       "name": "Hands & Claws",
@@ -78,52 +75,54 @@
     },
     {
       "name": "Phantom",
-      "slug": "ghostwright/phantom",
       "category": "SELF_EVOLVING_AGENT",
-      "role": "COWORKER_PLATFORM",
       "score": 10,
-      "score_note": "SAFLA v2 in production. Soul File proven. Secrets engine. Peer mesh. 1,819 tests. This IS Agent Zero.",
       "connector": "agent_zero/integrations/phantom_connector.py",
-      "stars": 1424,
-      "forks": 187,
-      "tests": 1819,
-      "version": "0.20.2",
-      "docker": "ghostwright/phantom",
-      "key_features": [
-        "Self-evolution engine: gate\u2192queue\u2192cadence\u2192reflection subprocess\u21929 invariants\u2192commit/rollback",
-        "Constitution (Soul File): 8 immutable principles, evolution cannot touch",
-        "Three-tier vector memory: Episodic+Semantic+Procedural (Qdrant+Ollama, local, free)",
-        "Secrets engine: AES-256-GCM, phantom_collect_secrets MCP tool, magic-link web form",
-        "MCP server + peer mesh: Phantom A queries Phantom B natively \u2014 replaces Nexus Relay",
-        "Dynamic MCP tools: Phantom registers APIs it builds as future tools (self-extending)",
-        "Role system: custom YAML roles (5 min to ScoutPrime/ContentPrime/GhostPrime roles)",
-        "Provider swap: Anthropic\u2192Z.AI (15x cheaper)\u2192Ollama (free) in one config line",
-        "Channels: Slack, Telegram, Email, Web PWA, Webhook, CLI",
-        "1,819 passing tests. Docker image published. v0.20.2 production-grade."
+      "tests": 1819
+    },
+    {
+      "name": "ML4T (Machine Learning for Trading)",
+      "slug": "stefan-jansen/machine-learning-for-trading",
+      "category": "QUANT_INTELLIGENCE",
+      "role": "TRADING_CURRICULUM",
+      "score": 9,
+      "score_note": "18K stars. Canonical ML-trading curriculum. 150+ executed notebooks. 101 Formulaic Alphas + Kelly + DQN trading agent + TimeGAN = OpenAgora complete upgrade path.",
+      "connector": "agent_zero/integrations/ml4t_connector.py",
+      "stars": 18491,
+      "forks": 5227,
+      "notebooks": 150,
+      "chapters": 23,
+      "key_targets": [
+        "101 Formulaic Alphas (WorldQuant) \u2014 OpenAgora signal layer, immediate",
+        "Kelly Criterion + Fractional Kelly \u2014 OpenAgora position sizing, immediate",
+        "DQN + trading_env.py \u2014 RL trading agent, OpenAgora brain upgrade",
+        "LightGBM + SHAP \u2014 ML signal generator, outperforms linear on finance",
+        "TimeGAN \u2014 synthetic price history for safe backtesting without live capital",
+        "Pyfolio \u2014 MidasPrime War Chest performance tearsheet + strike triggers",
+        "GARCH \u2014 OpenAgora circuit breaker volatility trigger"
       ],
-      "pantheon_convergence": [
-        "Evolution engine = SAFLA v2 proven",
-        "constitution.md = Soul File (immutable 8 principles)",
-        "Peer MCP mesh = Prime-to-Prime comms (replaces Railway relay)",
-        "phantom_collect_secrets = closes credential security gap",
-        "Ollama provider = Nexus zero-cost deployment",
-        "Dynamic MCP = ScoutPrime self-extends with every data API it finds"
+      "pantheon_primes": [
+        "OpenAgora (PRIMARY)",
+        "ZeusPrime",
+        "ScoutPrime",
+        "FluxPrime",
+        "MidasPrime"
       ],
       "absorbed": "2026-06-02"
     }
   ],
   "score_overrides": 4,
   "total_10s": 6,
+  "total_9s": 2,
   "key_discoveries": [
-    "OpenHarness ohmo \u2014 13K stars, Agent Zero ships today, zero API key",
     "Phantom \u2014 SAFLA v2 in production. constitution.md IS the Soul File. 1,819 tests. Ship it.",
-    "Phantom peer mesh = Prime-to-Prime MCP (replaces Railway Nexus Relay \u2014 no custom server needed)",
+    "ML4T \u2014 18K stars. 101 WorldQuant Formulaic Alphas fully implemented. Kelly Criterion. DQN trading env. This is OpenAgora\"s brain.",
+    "ML4T trading_env.py \u2014 OpenAI Gym trading environment, drop into OpenAgora immediately",
+    "ML4T Kelly \u2014 quarter-Kelly position sizing replaces fixed lot sizing in 4 hours",
+    "ML4T TimeGAN \u2014 generate 10K synthetic Polymarket scenarios for safe backtesting",
+    "Phantom peer mesh = Prime-to-Prime MCP (replaces Railway Nexus Relay)",
     "Phantom phantom_collect_secrets = closes Pantheon credential security gap permanently",
-    "Phantom Z.AI provider = 15x cost reduction lever (GLM-5.1 as Opus replacement)",
-    "Phantom constitution: 8 immutable principles proven in production \u2014 copy verbatim for Agent Zero",
-    "Phantom dynamic MCP: agent registers APIs it builds as tools it can use in future sessions",
-    "KelvinClaw WASM + Phantom Docker sandbox = two isolation layers for Prime execution",
-    "NetClaw 15 MCP servers + Phantom peer mesh = full Pantheon network intelligence layer",
-    "H&C anonymized matching: FTS5 + alias-only LLM = privacy-safe talent matching pattern"
+    "OpenHarness ohmo \u2014 13K stars, Agent Zero ships today, zero API key",
+    "NetClaw 15 MCP servers + Phantom peer mesh = full Pantheon network intelligence layer"
   ]
 }
