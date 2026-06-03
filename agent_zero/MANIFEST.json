@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-03 02:37 UTC",
+  "generated": "2026-06-03 14:06 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 15,
+  "total_integrations": 16,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -83,41 +83,36 @@
     },
     {
       "name": "Android-MCP",
-      "slug": "CursorTouch/Android-MCP",
       "category": "ANDROID_CONTROL",
-      "role": "NEXUSCLAW_V4",
       "score": 8,
-      "score_note": "NexusClaw v4. WiFi ADB + FastMCP. No root. No tunnel. No CV. uiautomator2 + Android Accessibility API. Cleanest Android MCP path available.",
-      "connector": "agent_zero/integrations/android_mcp_connector.py",
-      "stars": 641,
-      "forks": 86,
+      "role": "NEXUSCLAW_V4"
+    },
+    {
+      "name": "Odysseus",
+      "slug": "pewdiepie-archdaemon/odysseus",
+      "category": "SOVEREIGN_UI",
+      "role": "PANTHEON_COMMAND_CENTER",
+      "score": 10,
+      "score_note": "The Sovereign AI Workspace. 39K stars in 3 days. Complete local-first UI (Chat, Agent, Research, Email, Calendar, Docs). Mobile-responsive. This is the Face of the Pantheon.",
+      "stars": 39305,
+      "forks": 4606,
       "stack": [
-        "Python 3.13",
-        "FastMCP",
-        "uiautomator2",
-        "ADB"
+        "FastAPI",
+        "JavaScript",
+        "ChromaDB",
+        "vLLM",
+        "CalDAV",
+        "IMAP"
       ],
-      "no_root": true,
-      "no_tunnel": true,
-      "pantheon_primes": [
-        "NexusClaw v4 (PRIMARY)",
-        "Agent Zero + omp",
-        "GhostPrime",
-        "ScoutPrime",
-        "EleftheriaPrime"
-      ],
-      "absorbed": "2026-06-02"
+      "absorbed": "2026-06-03"
     }
   ],
-  "total_10s": 7,
+  "total_10s": 8,
   "total_9s": 2,
   "total_8s": 1,
   "key_discoveries": [
-    "Android-MCP \u2014 NexusClaw v4. WiFi ADB + FastMCP. No root. No tunnel. uvx android-mcp --wifi RED_MAGIC_IP. Ships today.",
-    "omp \u2014 10K stars. 32 tools. Agent Zero terminal brain + DexClaw brain. One install.",
-    "Phantom \u2014 SAFLA v2. 1,819 tests. Self-evolution in production.",
-    "ML4T \u2014 18K stars. 101 Formulaic Alphas. Kelly. DQN. OpenAgora brain.",
-    "OpenHarness \u2014 13K stars. Agent Zero ships today, zero API key.",
-    "NetClaw \u2014 15 MCP servers. Full network intelligence layer."
+    "Odysseus \u2014 PANTHEON_COMMAND_CENTER. 39K stars. Self-hosted AI workspace (Email, Calendar, Deep Research, Agent). Mobile-responsive. THE UI choice.",
+    "Android-MCP \u2014 NexusClaw v4. WiFi ADB + FastMCP. No root. No tunnel.",
+    "omp \u2014 10K stars. 32 tools. Agent Zero terminal brain."
   ]
 }
