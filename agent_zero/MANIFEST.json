@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-03 01:43 UTC",
+  "generated": "2026-06-03 01:49 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 13,
+  "total_integrations": 14,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -81,48 +81,66 @@
       "tests": 1819
     },
     {
-      "name": "ML4T (Machine Learning for Trading)",
-      "slug": "stefan-jansen/machine-learning-for-trading",
+      "name": "ML4T",
       "category": "QUANT_INTELLIGENCE",
-      "role": "TRADING_CURRICULUM",
       "score": 9,
-      "score_note": "18K stars. Canonical ML-trading curriculum. 150+ executed notebooks. 101 Formulaic Alphas + Kelly + DQN trading agent + TimeGAN = OpenAgora complete upgrade path.",
       "connector": "agent_zero/integrations/ml4t_connector.py",
       "stars": 18491,
-      "forks": 5227,
-      "notebooks": 150,
-      "chapters": 23,
-      "key_targets": [
-        "101 Formulaic Alphas (WorldQuant) \u2014 OpenAgora signal layer, immediate",
-        "Kelly Criterion + Fractional Kelly \u2014 OpenAgora position sizing, immediate",
-        "DQN + trading_env.py \u2014 RL trading agent, OpenAgora brain upgrade",
-        "LightGBM + SHAP \u2014 ML signal generator, outperforms linear on finance",
-        "TimeGAN \u2014 synthetic price history for safe backtesting without live capital",
-        "Pyfolio \u2014 MidasPrime War Chest performance tearsheet + strike triggers",
-        "GARCH \u2014 OpenAgora circuit breaker volatility trigger"
+      "notebooks": 150
+    },
+    {
+      "name": "oh-my-pi (omp)",
+      "slug": "can1357/oh-my-pi",
+      "category": "CODING_AGENT_SURFACE",
+      "role": "TERMINAL_AI_AGENT",
+      "score": 10,
+      "score_note": "The most capable agent surface that ships. 10K stars. 40+ providers. 32 tools. 13 LSP. 27 DAP. Hash-anchored edits. ~27K lines Rust core. Subagent parallelism. Persistent memory. Skills + Commands systems. One install.",
+      "connector": "agent_zero/integrations/omp_connector.py",
+      "stars": 10010,
+      "forks": 826,
+      "tools": 32,
+      "lsp_ops": 13,
+      "dap_ops": 27,
+      "providers": "40+",
+      "rust_lines": 27000,
+      "install": "bun install -g @oh-my-pi/pi-coding-agent",
+      "key_tools": [
+        "bash",
+        "browser",
+        "ssh",
+        "gh",
+        "ast-edit",
+        "debug",
+        "sqlite-reader",
+        "memory-retain/recall/reflect",
+        "irc",
+        "job"
       ],
       "pantheon_primes": [
-        "OpenAgora (PRIMARY)",
-        "ZeusPrime",
-        "ScoutPrime",
-        "FluxPrime",
-        "MidasPrime"
+        "Agent Zero (PRIMARY)",
+        "DexClaw",
+        "Phantom",
+        "KelvinClaw",
+        "OpenAgora",
+        "GhostPrime",
+        "ScoutPrime"
       ],
       "absorbed": "2026-06-02"
     }
   ],
   "score_overrides": 4,
-  "total_10s": 6,
+  "total_10s": 7,
   "total_9s": 2,
   "key_discoveries": [
-    "Phantom \u2014 SAFLA v2 in production. constitution.md IS the Soul File. 1,819 tests. Ship it.",
-    "ML4T \u2014 18K stars. 101 WorldQuant Formulaic Alphas fully implemented. Kelly Criterion. DQN trading env. This is OpenAgora\"s brain.",
-    "ML4T trading_env.py \u2014 OpenAI Gym trading environment, drop into OpenAgora immediately",
-    "ML4T Kelly \u2014 quarter-Kelly position sizing replaces fixed lot sizing in 4 hours",
-    "ML4T TimeGAN \u2014 generate 10K synthetic Polymarket scenarios for safe backtesting",
-    "Phantom peer mesh = Prime-to-Prime MCP (replaces Railway Nexus Relay)",
-    "Phantom phantom_collect_secrets = closes Pantheon credential security gap permanently",
-    "OpenHarness ohmo \u2014 13K stars, Agent Zero ships today, zero API key",
-    "NetClaw 15 MCP servers + Phantom peer mesh = full Pantheon network intelligence layer"
+    "omp \u2014 10K stars. 32 tools. 13 LSP. 27 DAP. Hash-anchored edits. This is Agent Zero\"s execution surface and DexClaw\"s brain. Ships in one command.",
+    "omp ssh.ts \u2014 Agent Zero controls any machine by SSH. No tunnel. No NexusClaw dependency.",
+    "omp irc.ts + job.ts \u2014 subagent parallelism with coordination channel. Pantheon multi-agent primitive.",
+    "omp skills + commands \u2014 maps directly to Agent Zero absorption architecture.",
+    "Phantom \u2014 SAFLA v2 in production. 1,819 tests. Ship it.",
+    "ML4T \u2014 18K stars. 101 WorldQuant Formulaic Alphas. Kelly. DQN env. OpenAgora brain.",
+    "OpenHarness ohmo \u2014 13K stars. Agent Zero ships today, zero API key.",
+    "NetClaw 15 MCP servers + Phantom peer mesh = full Pantheon network intelligence layer.",
+    "Phantom peer mesh = Prime-to-Prime MCP (replaces Railway Nexus Relay).",
+    "Phantom phantom_collect_secrets = closes Pantheon credential security gap permanently."
   ]
 }
