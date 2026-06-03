@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-03 18:08 UTC",
+  "generated": "2026-06-03 18:26 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 22,
+  "total_integrations": 23,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -171,9 +171,20 @@
       "stars": 221621,
       "forks": 50708,
       "absorbed": "2026-06-03"
+    },
+    {
+      "name": "JavaProb",
+      "slug": "Warlord27/JavaProb",
+      "category": "LOGIC_REFINERY",
+      "role": "DEBUG_STRATUM",
+      "score": 10,
+      "score_note": "Specialized refinery for tricky and concept-rich logic. Used to sharpen Agent Zero response patterns and edge-case handling in the Java runtime. Critical for high-complexity debugging.",
+      "stars": 13,
+      "forks": 8,
+      "absorbed": "2026-06-03"
     }
   ],
-  "total_10s": 14,
+  "total_10s": 15,
   "total_9s": 2,
   "total_8s": 1,
   "key_discoveries": [
