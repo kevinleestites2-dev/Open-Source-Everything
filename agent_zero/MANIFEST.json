@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-03 17:30 UTC",
+  "generated": "2026-06-03 17:35 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 18,
+  "total_integrations": 19,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -127,9 +127,20 @@
       "stars": 1545,
       "forks": 138,
       "absorbed": "2026-06-03"
+    },
+    {
+      "name": "tinyvector",
+      "slug": "m1guelpf/tinyvector",
+      "category": "VECTOR_DATABASE",
+      "role": "LOCAL_PERSISTENCE_LAYER",
+      "score": 10,
+      "score_note": "The Rust-native vector engine. Extremely lightweight, blazing fast, and mobile-ready. Replaces heavy vector DBs for on-device cognition.",
+      "stars": 432,
+      "forks": 23,
+      "absorbed": "2026-06-03"
     }
   ],
-  "total_10s": 10,
+  "total_10s": 11,
   "total_9s": 2,
   "total_8s": 1,
   "key_discoveries": [
