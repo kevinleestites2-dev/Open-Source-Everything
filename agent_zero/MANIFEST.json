@@ -1,146 +1,123 @@
 {
-  "generated": "2026-06-03 01:49 UTC",
+  "generated": "2026-06-03 02:37 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 14,
+  "total_integrations": 15,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
       "category": "CRYPTO",
-      "score": 2,
-      "connector": "agent_zero/integrations/liquidity_module_self_integration_connector.py"
+      "score": 2
     },
     {
       "name": "thClaws",
       "category": "EXECUTION_HARNESS",
-      "score": 7,
-      "connector": "agent_zero/integrations/thclaws_connector.py"
+      "score": 7
     },
     {
       "name": "crawl4ai",
       "category": "PERCEPTION",
-      "score": 7,
-      "connector": "agent_zero/integrations/crawl4ai_connector.py"
+      "score": 7
     },
     {
       "name": "Clawdi",
       "category": "MEMORY_BACKBONE",
-      "score": 9,
-      "connector": "agent_zero/integrations/clawdi_connector.py"
+      "score": 9
     },
     {
       "name": "OpenClaude Mobile",
       "category": "RED_MAGIC_BRAIN",
-      "score": 10,
-      "connector": "agent_zero/integrations/openclaude_android_connector.py"
+      "score": 10
     },
     {
       "name": "AnyClaw Platform",
       "category": "MOBILE_CMD_CENTER",
       "score": 10,
-      "connector": "agent_zero/integrations/openclaw_android_assistant_connector.py",
       "skills": 55
     },
     {
       "name": "zig-pro-maxx",
       "category": "LANGUAGE_SKILL",
-      "score": 2,
-      "connector": "agent_zero/integrations/zig_pro_maxx_connector.py"
+      "score": 2
     },
     {
       "name": "NetClaw",
       "category": "NETWORK_SPINE_PRIME",
       "score": 10,
-      "connector": "agent_zero/integrations/netclaw_connector.py",
       "mcp_servers": 15
     },
     {
       "name": "KelvinClaw",
       "category": "RUST_AGENT_RUNTIME",
       "score": 10,
-      "connector": "agent_zero/integrations/kelvinclaw_connector.py",
       "crates": 14
     },
     {
       "name": "OpenHarness + ohmo",
       "category": "AGENT_PLATFORM",
       "score": 10,
-      "connector": "agent_zero/integrations/openharness_connector.py",
       "stars": 13437
     },
     {
       "name": "Hands & Claws",
       "category": "HUMAN_AGENT_NETWORK",
-      "score": 7,
-      "connector": "agent_zero/integrations/hands_and_claws_connector.py"
+      "score": 7
     },
     {
       "name": "Phantom",
       "category": "SELF_EVOLVING_AGENT",
       "score": 10,
-      "connector": "agent_zero/integrations/phantom_connector.py",
       "tests": 1819
     },
     {
       "name": "ML4T",
       "category": "QUANT_INTELLIGENCE",
       "score": 9,
-      "connector": "agent_zero/integrations/ml4t_connector.py",
-      "stars": 18491,
-      "notebooks": 150
+      "stars": 18491
     },
     {
       "name": "oh-my-pi (omp)",
-      "slug": "can1357/oh-my-pi",
       "category": "CODING_AGENT_SURFACE",
-      "role": "TERMINAL_AI_AGENT",
       "score": 10,
-      "score_note": "The most capable agent surface that ships. 10K stars. 40+ providers. 32 tools. 13 LSP. 27 DAP. Hash-anchored edits. ~27K lines Rust core. Subagent parallelism. Persistent memory. Skills + Commands systems. One install.",
-      "connector": "agent_zero/integrations/omp_connector.py",
       "stars": 10010,
-      "forks": 826,
-      "tools": 32,
-      "lsp_ops": 13,
-      "dap_ops": 27,
-      "providers": "40+",
-      "rust_lines": 27000,
-      "install": "bun install -g @oh-my-pi/pi-coding-agent",
-      "key_tools": [
-        "bash",
-        "browser",
-        "ssh",
-        "gh",
-        "ast-edit",
-        "debug",
-        "sqlite-reader",
-        "memory-retain/recall/reflect",
-        "irc",
-        "job"
+      "tools": 32
+    },
+    {
+      "name": "Android-MCP",
+      "slug": "CursorTouch/Android-MCP",
+      "category": "ANDROID_CONTROL",
+      "role": "NEXUSCLAW_V4",
+      "score": 8,
+      "score_note": "NexusClaw v4. WiFi ADB + FastMCP. No root. No tunnel. No CV. uiautomator2 + Android Accessibility API. Cleanest Android MCP path available.",
+      "connector": "agent_zero/integrations/android_mcp_connector.py",
+      "stars": 641,
+      "forks": 86,
+      "stack": [
+        "Python 3.13",
+        "FastMCP",
+        "uiautomator2",
+        "ADB"
       ],
+      "no_root": true,
+      "no_tunnel": true,
       "pantheon_primes": [
-        "Agent Zero (PRIMARY)",
-        "DexClaw",
-        "Phantom",
-        "KelvinClaw",
-        "OpenAgora",
+        "NexusClaw v4 (PRIMARY)",
+        "Agent Zero + omp",
         "GhostPrime",
-        "ScoutPrime"
+        "ScoutPrime",
+        "EleftheriaPrime"
       ],
       "absorbed": "2026-06-02"
     }
   ],
-  "score_overrides": 4,
   "total_10s": 7,
   "total_9s": 2,
+  "total_8s": 1,
   "key_discoveries": [
-    "omp \u2014 10K stars. 32 tools. 13 LSP. 27 DAP. Hash-anchored edits. This is Agent Zero\"s execution surface and DexClaw\"s brain. Ships in one command.",
-    "omp ssh.ts \u2014 Agent Zero controls any machine by SSH. No tunnel. No NexusClaw dependency.",
-    "omp irc.ts + job.ts \u2014 subagent parallelism with coordination channel. Pantheon multi-agent primitive.",
-    "omp skills + commands \u2014 maps directly to Agent Zero absorption architecture.",
-    "Phantom \u2014 SAFLA v2 in production. 1,819 tests. Ship it.",
-    "ML4T \u2014 18K stars. 101 WorldQuant Formulaic Alphas. Kelly. DQN env. OpenAgora brain.",
-    "OpenHarness ohmo \u2014 13K stars. Agent Zero ships today, zero API key.",
-    "NetClaw 15 MCP servers + Phantom peer mesh = full Pantheon network intelligence layer.",
-    "Phantom peer mesh = Prime-to-Prime MCP (replaces Railway Nexus Relay).",
-    "Phantom phantom_collect_secrets = closes Pantheon credential security gap permanently."
+    "Android-MCP \u2014 NexusClaw v4. WiFi ADB + FastMCP. No root. No tunnel. uvx android-mcp --wifi RED_MAGIC_IP. Ships today.",
+    "omp \u2014 10K stars. 32 tools. Agent Zero terminal brain + DexClaw brain. One install.",
+    "Phantom \u2014 SAFLA v2. 1,819 tests. Self-evolution in production.",
+    "ML4T \u2014 18K stars. 101 Formulaic Alphas. Kelly. DQN. OpenAgora brain.",
+    "OpenHarness \u2014 13K stars. Agent Zero ships today, zero API key.",
+    "NetClaw \u2014 15 MCP servers. Full network intelligence layer."
   ]
 }
