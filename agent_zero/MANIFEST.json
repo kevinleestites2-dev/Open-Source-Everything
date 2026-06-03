@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-03 00:23 UTC",
+  "generated": "2026-06-03 01:14 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 11,
+  "total_integrations": 12,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -72,41 +72,58 @@
     },
     {
       "name": "Hands & Claws",
-      "slug": "haozeli2009/Hands-and-Claws",
       "category": "HUMAN_AGENT_NETWORK",
-      "role": "TASK_MARKETPLACE",
       "score": 7,
-      "score_note": "Unique architecture. Only absorbed repo with human-AI task parity. OpenClaw plugin. Anonymized LLM matching. Consent architecture.",
-      "connector": "agent_zero/integrations/hands_and_claws_connector.py",
-      "live": "https://handsandclaws.haozeli2009.com",
-      "stack": "Python 3.12 + React 18 + TypeScript 5 + SQLite FTS5",
+      "connector": "agent_zero/integrations/hands_and_claws_connector.py"
+    },
+    {
+      "name": "Phantom",
+      "slug": "ghostwright/phantom",
+      "category": "SELF_EVOLVING_AGENT",
+      "role": "COWORKER_PLATFORM",
+      "score": 10,
+      "score_note": "SAFLA v2 in production. Soul File proven. Secrets engine. Peer mesh. 1,819 tests. This IS Agent Zero.",
+      "connector": "agent_zero/integrations/phantom_connector.py",
+      "stars": 1424,
+      "forks": 187,
+      "tests": 1819,
+      "version": "0.20.2",
+      "docker": "ghostwright/phantom",
       "key_features": [
-        "Human-AI task parity \u2014 same pipeline for people and agents",
-        "FTS5 pre-filter + anonymized LLM ranking (Candidate A/B/C, no PII in prompts)",
-        "Consent architecture \u2014 data never leaves without explicit approval",
-        "OpenClaw plugin \u2014 installs directly in AnyClaw and OpenHarness ohmo",
-        "GitHub App integration \u2014 PR/issue context in agent tasks",
-        "Per-user LLM key \u2014 each participant brings their own model"
+        "Self-evolution engine: gate\u2192queue\u2192cadence\u2192reflection subprocess\u21929 invariants\u2192commit/rollback",
+        "Constitution (Soul File): 8 immutable principles, evolution cannot touch",
+        "Three-tier vector memory: Episodic+Semantic+Procedural (Qdrant+Ollama, local, free)",
+        "Secrets engine: AES-256-GCM, phantom_collect_secrets MCP tool, magic-link web form",
+        "MCP server + peer mesh: Phantom A queries Phantom B natively \u2014 replaces Nexus Relay",
+        "Dynamic MCP tools: Phantom registers APIs it builds as future tools (self-extending)",
+        "Role system: custom YAML roles (5 min to ScoutPrime/ContentPrime/GhostPrime roles)",
+        "Provider swap: Anthropic\u2192Z.AI (15x cheaper)\u2192Ollama (free) in one config line",
+        "Channels: Slack, Telegram, Email, Web PWA, Webhook, CLI",
+        "1,819 passing tests. Docker image published. v0.20.2 production-grade."
       ],
-      "pantheon_use_cases": [
-        "PropPilot_BirdDog",
-        "ContentPrime_Review",
-        "PantheonMarket",
-        "MysteryShop_Personal"
+      "pantheon_convergence": [
+        "Evolution engine = SAFLA v2 proven",
+        "constitution.md = Soul File (immutable 8 principles)",
+        "Peer MCP mesh = Prime-to-Prime comms (replaces Railway relay)",
+        "phantom_collect_secrets = closes credential security gap",
+        "Ollama provider = Nexus zero-cost deployment",
+        "Dynamic MCP = ScoutPrime self-extends with every data API it finds"
       ],
       "absorbed": "2026-06-02"
     }
   ],
   "score_overrides": 4,
+  "total_10s": 6,
   "key_discoveries": [
-    "Clawhub.ai \u2014 OpenClaw skill marketplace",
-    "AnyClaw AGENTS.md mirrors Pantheon workspace protocol \u2014 convergent evolution",
-    "OpenClaude smart_router.py \u2014 free provider cascade",
-    "NetClaw \u2014 CCIE network AI: 169 skills, 15 MCP, OSPFv3 live",
-    "KelvinClaw \u2014 Rust harness: WASM sandbox + KMS + multi-channel gateway",
     "OpenHarness ohmo \u2014 13K stars, Agent Zero ships today, zero API key",
-    "Hands&Claws \u2014 human-AI peer marketplace with OpenClaw plugin. PropPilot bird dog layer.",
-    "H&C anonymized matching: FTS5 + alias-only LLM = no PII leakage pattern",
-    "H&C consent architecture = blueprint for any Pantheon human contractor flow"
+    "Phantom \u2014 SAFLA v2 in production. constitution.md IS the Soul File. 1,819 tests. Ship it.",
+    "Phantom peer mesh = Prime-to-Prime MCP (replaces Railway Nexus Relay \u2014 no custom server needed)",
+    "Phantom phantom_collect_secrets = closes Pantheon credential security gap permanently",
+    "Phantom Z.AI provider = 15x cost reduction lever (GLM-5.1 as Opus replacement)",
+    "Phantom constitution: 8 immutable principles proven in production \u2014 copy verbatim for Agent Zero",
+    "Phantom dynamic MCP: agent registers APIs it builds as tools it can use in future sessions",
+    "KelvinClaw WASM + Phantom Docker sandbox = two isolation layers for Prime execution",
+    "NetClaw 15 MCP servers + Phantom peer mesh = full Pantheon network intelligence layer",
+    "H&C anonymized matching: FTS5 + alias-only LLM = privacy-safe talent matching pattern"
   ]
 }
