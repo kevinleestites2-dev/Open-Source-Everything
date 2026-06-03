@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-03 17:26 UTC",
+  "generated": "2026-06-03 17:30 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 17,
+  "total_integrations": 18,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -116,9 +116,20 @@
       "stars": 226383,
       "forks": 13588,
       "absorbed": "2026-06-03"
+    },
+    {
+      "name": "Awesome Search",
+      "slug": "frutik/awesome-search",
+      "category": "SEARCH_ARCHIVE",
+      "role": "RETRIEVAL_STRATEGY",
+      "score": 10,
+      "score_note": "The master blueprint for advanced retrieval. Covers Semantic, Hybrid, Agentic search, and RRF. Essential for Vane/Odysseus evolution.",
+      "stars": 1545,
+      "forks": 138,
+      "absorbed": "2026-06-03"
     }
   ],
-  "total_10s": 9,
+  "total_10s": 10,
   "total_9s": 2,
   "total_8s": 1,
   "key_discoveries": [
