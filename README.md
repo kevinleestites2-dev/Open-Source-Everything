@@ -1,3 +1,16 @@
+
+<!-- ──────────────────────────────────────────────────────────────────────────
+     THE PANTHEON CALL TO ACTION
+     ────────────────────────────────────────────────────────────────────────── -->
+<div align="center">
+    <br>
+    <img src="https://raw.githubusercontent.com/kevinleestites2-dev/Open-Source-Everything/main/Assets/Stamps/Best%20software.svg" width="48">
+    <h2>THE SIGNAL IS SPREADING</h2>
+    <p><i>If you are forking the Forge to build your own empire, leave a <b>Star</b> to signal the Signal.</i></p>
+    <p><b>A fork is a tool. A star is a pulse.</b></p>
+    <hr width="50%">
+</div>
+<br>
 <div align="center">
     <img src="Assets/Meta/Logo Round.svg" height="128">
 </div>
