@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-02 23:59 UTC",
+  "generated": "2026-06-03 00:05 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 9,
+  "total_integrations": 10,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -35,7 +35,7 @@
     },
     {
       "name": "AnyClaw Platform",
-      "category": "MOBILE_COMMAND_CENTER",
+      "category": "MOBILE_CMD_CENTER",
       "score": 10,
       "connector": "agent_zero/integrations/openclaw_android_assistant_connector.py",
       "skills": 55
@@ -48,8 +48,7 @@
     },
     {
       "name": "NetClaw",
-      "category": "NETWORK_INTELLIGENCE",
-      "role": "NETWORK_SPINE_PRIME",
+      "category": "NETWORK_SPINE_PRIME",
       "score": 10,
       "connector": "agent_zero/integrations/netclaw_connector.py",
       "skills": 169,
@@ -57,39 +56,53 @@
     },
     {
       "name": "KelvinClaw",
-      "slug": "AgenticHighway/kelvinclaw",
       "category": "RUST_AGENT_RUNTIME",
-      "role": "SECURITY_SPINE",
       "score": 10,
-      "score_note": "OVERRIDE. Rust-native security-first agent harness. WASM sandbox. KMS memory. Telegram+WhatsApp gateway. The skeleton Agent Zero runs ON.",
       "connector": "agent_zero/integrations/kelvinclaw_connector.py",
-      "version": "0.2.7",
-      "language": "Rust",
-      "crates": 14,
-      "files": 362,
+      "crates": 14
+    },
+    {
+      "name": "OpenHarness + ohmo",
+      "slug": "HKUDS/OpenHarness",
+      "category": "AGENT_PLATFORM",
+      "role": "SWARM_ENGINE",
+      "score": 10,
+      "score_note": "No override needed. 13K stars. Production-grade. No extra API key. ohmo IS Agent Zero.",
+      "connector": "agent_zero/integrations/openharness_connector.py",
+      "stars": 13437,
+      "forks": 2207,
+      "tools": 43,
+      "channels": 10,
+      "tests": 114,
+      "e2e_suites": 6,
       "key_features": [
-        "WASM sandboxed plugins (wasmtime 44.0.1) \u2014 ABI-locked, fuel-budgeted, signed",
-        "Ed25519 plugin signing \u2014 only verified code executes",
-        "Multi-channel gateway: Telegram + WhatsApp + Discord + Slack (axum Rust)",
-        "KMS-backed memory (AWS KMS + gRPC/Tonic + protobuf)",
-        "MarkdownMemoryManager reads MEMORY.md + memory/**/*.md \u2014 Pantheon-native",
-        "IronClaw (locked_down) + PicoClaw (embedded) + ZeroClaw (zero-trust) presets",
-        "move_servo WASM ABI \u2014 physical actuator control with safety cage",
-        "cargo-audit CI \u2014 automatic vulnerability scanning",
-        "Plugin ABI compatibility CI on every commit"
+        "ohmo personal agent \u2014 autonomous long-session AI, forks branches, opens PRs",
+        "10 channel ingress: Telegram, WhatsApp, Discord, Slack, Feishu, DingTalk, Email, Matrix, MoChat, QQ",
+        "Multi-agent swarm with git worktree per agent",
+        "Docker sandbox \u2014 full container isolation per session",
+        "43+ tools: bash, files, web, vision, MCP, tasks, swarm, cron, planning, LSP, voice",
+        "Autopilot mode \u2014 autonomous PR pipeline via GitHub Actions",
+        "Built-in cron tools native to agent loop",
+        "MCP native \u2014 connects directly to NetClaw 15 MCP servers",
+        "Voice mode \u2014 streaming STT on Red Magic",
+        "Personalization engine \u2014 learns Forgemaster patterns, rewrites behavior",
+        "AutoDream \u2014 background memory extraction + session summarization",
+        "NO extra API key \u2014 runs on Claude Code or Copilot subscription"
       ],
       "absorbed": "2026-06-02"
     }
   ],
-  "score_overrides": 5,
+  "score_overrides": 4,
   "key_discoveries": [
     "Clawhub.ai \u2014 OpenClaw skill marketplace",
     "AnyClaw AGENTS.md mirrors Pantheon workspace protocol \u2014 convergent evolution",
     "OpenClaude smart_router.py \u2014 free provider cascade",
-    "NetClaw \u2014 CCIE network AI: 169 skills, 15 MCP, OSPFv3 live participation",
-    "KelvinClaw \u2014 Rust harness: WASM sandbox + KMS memory + multi-channel gateway",
-    "KelvinClaw MarkdownMemoryManager is Pantheon-native (reads MEMORY.md directly)",
-    "move_servo WASM ABI = EleftheriaPrime physical control through a security cage",
-    "IronClaw preset = Agent Zero locked-down mode for wallet/API operations"
+    "NetClaw \u2014 CCIE network AI: 169 skills, 15 MCP, OSPFv3 live",
+    "KelvinClaw \u2014 Rust harness: WASM sandbox + KMS + multi-channel gateway",
+    "OpenHarness ohmo \u2014 13K stars, Agent Zero complete, ships TODAY, zero API key",
+    "ohmo worktree per agent = each Prime owns its own git branch. No collisions.",
+    "OpenHarness autopilot = FluxPrime AutoGPT layer, production-ready, CI-tested",
+    "Voice mode (stream_stt.py) = Forgemaster speaks to the Pantheon on Red Magic",
+    "Personalization engine = SAFLA applied to identity, Soul File evolving autonomously"
   ]
 }
