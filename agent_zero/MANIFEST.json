@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-03 00:05 UTC",
+  "generated": "2026-06-03 00:23 UTC",
   "repo": "https://github.com/kevinleestites2-dev/Open-Source-Everything",
-  "total_integrations": 10,
+  "total_integrations": 11,
   "integrations": [
     {
       "name": "liquidity-module (GlueX)",
@@ -63,31 +63,36 @@
     },
     {
       "name": "OpenHarness + ohmo",
-      "slug": "HKUDS/OpenHarness",
       "category": "AGENT_PLATFORM",
-      "role": "SWARM_ENGINE",
       "score": 10,
-      "score_note": "No override needed. 13K stars. Production-grade. No extra API key. ohmo IS Agent Zero.",
       "connector": "agent_zero/integrations/openharness_connector.py",
       "stars": 13437,
-      "forks": 2207,
       "tools": 43,
-      "channels": 10,
-      "tests": 114,
-      "e2e_suites": 6,
+      "channels": 10
+    },
+    {
+      "name": "Hands & Claws",
+      "slug": "haozeli2009/Hands-and-Claws",
+      "category": "HUMAN_AGENT_NETWORK",
+      "role": "TASK_MARKETPLACE",
+      "score": 7,
+      "score_note": "Unique architecture. Only absorbed repo with human-AI task parity. OpenClaw plugin. Anonymized LLM matching. Consent architecture.",
+      "connector": "agent_zero/integrations/hands_and_claws_connector.py",
+      "live": "https://handsandclaws.haozeli2009.com",
+      "stack": "Python 3.12 + React 18 + TypeScript 5 + SQLite FTS5",
       "key_features": [
-        "ohmo personal agent \u2014 autonomous long-session AI, forks branches, opens PRs",
-        "10 channel ingress: Telegram, WhatsApp, Discord, Slack, Feishu, DingTalk, Email, Matrix, MoChat, QQ",
-        "Multi-agent swarm with git worktree per agent",
-        "Docker sandbox \u2014 full container isolation per session",
-        "43+ tools: bash, files, web, vision, MCP, tasks, swarm, cron, planning, LSP, voice",
-        "Autopilot mode \u2014 autonomous PR pipeline via GitHub Actions",
-        "Built-in cron tools native to agent loop",
-        "MCP native \u2014 connects directly to NetClaw 15 MCP servers",
-        "Voice mode \u2014 streaming STT on Red Magic",
-        "Personalization engine \u2014 learns Forgemaster patterns, rewrites behavior",
-        "AutoDream \u2014 background memory extraction + session summarization",
-        "NO extra API key \u2014 runs on Claude Code or Copilot subscription"
+        "Human-AI task parity \u2014 same pipeline for people and agents",
+        "FTS5 pre-filter + anonymized LLM ranking (Candidate A/B/C, no PII in prompts)",
+        "Consent architecture \u2014 data never leaves without explicit approval",
+        "OpenClaw plugin \u2014 installs directly in AnyClaw and OpenHarness ohmo",
+        "GitHub App integration \u2014 PR/issue context in agent tasks",
+        "Per-user LLM key \u2014 each participant brings their own model"
+      ],
+      "pantheon_use_cases": [
+        "PropPilot_BirdDog",
+        "ContentPrime_Review",
+        "PantheonMarket",
+        "MysteryShop_Personal"
       ],
       "absorbed": "2026-06-02"
     }
@@ -99,10 +104,9 @@
     "OpenClaude smart_router.py \u2014 free provider cascade",
     "NetClaw \u2014 CCIE network AI: 169 skills, 15 MCP, OSPFv3 live",
     "KelvinClaw \u2014 Rust harness: WASM sandbox + KMS + multi-channel gateway",
-    "OpenHarness ohmo \u2014 13K stars, Agent Zero complete, ships TODAY, zero API key",
-    "ohmo worktree per agent = each Prime owns its own git branch. No collisions.",
-    "OpenHarness autopilot = FluxPrime AutoGPT layer, production-ready, CI-tested",
-    "Voice mode (stream_stt.py) = Forgemaster speaks to the Pantheon on Red Magic",
-    "Personalization engine = SAFLA applied to identity, Soul File evolving autonomously"
+    "OpenHarness ohmo \u2014 13K stars, Agent Zero ships today, zero API key",
+    "Hands&Claws \u2014 human-AI peer marketplace with OpenClaw plugin. PropPilot bird dog layer.",
+    "H&C anonymized matching: FTS5 + alias-only LLM = no PII leakage pattern",
+    "H&C consent architecture = blueprint for any Pantheon human contractor flow"
   ]
 }
